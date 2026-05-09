@@ -1,0 +1,12 @@
+//Comando para crear el MetaInf y el .class
+
+kotlinc TemaVariablesTipos.kt
+
+//En nuestro caso necesitamos un comando extra para crear el .jar, problemente por la versión de jdk
+kotlinc temaFor.kt -include-runtime -d temaFor.jar
+
+//Para compilar
+java -jar temaFor.jar
+
+axb usando sumas 
+distancia entre dos puntos
